@@ -1,0 +1,150 @@
+{
+  "title": "Vishnu AI Real Benchmark Results - November 2025",
+  "generatedAt": "2025-11-09T16:22:50.582Z",
+  "methodology": {
+    "dataset": "15 questions across 14 categories",
+    "metrics": ["Accuracy", "Relevance", "Coherence", "Factuality", "Completeness", "Response Time", "Pass Rate"],
+    "scoring": "Weighted average with accuracy (30%), factuality (20%), relevance (20%), coherence (15%), and completeness (15%)"
+  },
+  "results": [
+    {
+      "modelName": "Claude 3 Opus",
+      "accuracy": 66.48,
+      "avgResponseTime": 2667,
+      "relevanceScore": 78.11,
+      "coherenceScore": 98.33,
+      "factualityScore": 50.76,
+      "completenessScore": 89.43,
+      "overallScore": 73.88,
+      "passRate": 73.33,
+      "testResults": []
+    },
+    {
+      "modelName": "Mistral Large",
+      "accuracy": 66.24,
+      "avgResponseTime": 2762,
+      "relevanceScore": 75.22,
+      "coherenceScore": 98.33,
+      "factualityScore": 52.26,
+      "completenessScore": 88.81,
+      "overallScore": 73.44,
+      "passRate": 73.33,
+      "testResults": []
+    },
+    {
+      "modelName": "Vishnu AI",
+      "accuracy": 66.03,
+      "avgResponseTime": 2468,
+      "relevanceScore": 75.67,
+      "coherenceScore": 98.33,
+      "factualityScore": 50.96,
+      "completenessScore": 89.94,
+      "overallScore": 73.38,
+      "passRate": 73.33,
+      "testResults": []
+    },
+    {
+      "modelName": "Command R+",
+      "accuracy": 63.48,
+      "avgResponseTime": 2549,
+      "relevanceScore": 72.56,
+      "coherenceScore": 96.67,
+      "factualityScore": 50.35,
+      "completenessScore": 84.92,
+      "overallScore": 70.86,
+      "passRate": 73.33,
+      "testResults": []
+    },
+    {
+      "modelName": "DeepSeek V3",
+      "accuracy": 62.22,
+      "avgResponseTime": 2530,
+      "relevanceScore": 76.78,
+      "coherenceScore": 96.67,
+      "factualityScore": 45.90,
+      "completenessScore": 85.17,
+      "overallScore": 70.48,
+      "passRate": 66.67,
+      "testResults": []
+    },
+    {
+      "modelName": "Gemini 2.0 Flash",
+      "accuracy": 59.91,
+      "avgResponseTime": 3004,
+      "relevanceScore": 74.00,
+      "coherenceScore": 96.67,
+      "factualityScore": 41.36,
+      "completenessScore": 91.81,
+      "overallScore": 69.32,
+      "passRate": 66.67,
+      "testResults": []
+    },
+    {
+      "modelName": "Llama 3.3 70B",
+      "accuracy": 55.06,
+      "avgResponseTime": 2450,
+      "relevanceScore": 64.56,
+      "coherenceScore": 95.00,
+      "factualityScore": 41.51,
+      "completenessScore": 82.48,
+      "overallScore": 64.35,
+      "passRate": 60.00,
+      "testResults": []
+    },
+    {
+      "modelName": "Gemini 1.5 Pro",
+      "accuracy": 55.79,
+      "avgResponseTime": 2423,
+      "relevanceScore": 65.44,
+      "coherenceScore": 93.33,
+      "factualityScore": 42.32,
+      "completenessScore": 80.10,
+      "overallScore": 64.30,
+      "passRate": 60.00,
+      "testResults": []
+    },
+    {
+      "modelName": "GPT-4o Mini",
+      "accuracy": 55.26,
+      "avgResponseTime": 2093,
+      "relevanceScore": 62.78,
+      "coherenceScore": 93.33,
+      "factualityScore": 44.86,
+      "completenessScore": 73.56,
+      "overallScore": 63.14,
+      "passRate": 60.00,
+      "testResults": []
+    },
+    {
+      "modelName": "Claude 3.5 Sonnet",
+      "accuracy": 52.89,
+      "avgResponseTime": 2197,
+      "relevanceScore": 59.22,
+      "coherenceScore": 93.33,
+      "factualityScore": 42.96,
+      "completenessScore": 74.00,
+      "overallScore": 61.40,
+      "passRate": 53.33,
+      "testResults": []
+    },
+    {
+      "modelName": "GPT-4 Turbo",
+      "accuracy": 41.35,
+      "avgResponseTime": 2025,
+      "relevanceScore": 50.89,
+      "coherenceScore": 90.00,
+      "factualityScore": 30.07,
+      "completenessScore": 65.94,
+      "overallScore": 51.99,
+      "passRate": 46.67,
+      "testResults": []
+    }
+  ],
+  "topPerformer": {
+    "modelName": "Claude 3 Opus",
+    "overallScore": 73.88,
+    "accuracy": 66.48
+  },
+  "vishnuAIRank": 3,
+  "vishnuAIScore": 73.38
+}
